@@ -14,6 +14,7 @@ void main()
 	cin >> c;
 	Ave = (a + b + c) / 3;
 	cout << "Average of these numbers is " << Ave << "!" << endl;
-	system("pause");
+	cin.get();
+	cin.ignore();
 }
 //Created by /%++;; Mohammad-Mahdi Farah-bakhsh ;;++%\
