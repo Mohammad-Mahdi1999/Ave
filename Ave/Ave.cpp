@@ -7,12 +7,13 @@ using namespace std;
 
 void main()
 {
-	int a, b, c, Ave;
+	double i, num,sum=0, Ave;
 	cout << "Enter three numbers :" << endl;
-	cin >> a;
-	cin >> b;
-	cin >> c;
-	Ave = (a + b + c) / 3;
+	for (i = 1; i <= 3; i++) {
+		cin >> num;
+		sum = sum + num;
+	}
+	Ave = sum / 3;
 	cout << "Average of these numbers is " << Ave << "!" << endl;
 	cin.get();
 	cin.ignore();
