@@ -1,6 +1,6 @@
 // In the name of God !
 //Ave
-//v1.0
+//v1.2
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
