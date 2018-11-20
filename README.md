@@ -1,4 +1,5 @@
 # Ave
 Average of  numbers!
-Open "Debug" folder .
-Run "Ave".
+v1.0 : Simple type
+v1.5 : Using the loop while
+
