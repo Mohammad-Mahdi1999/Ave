@@ -1,21 +1,23 @@
 // In the name of God !
 //Ave
-//v1.5
+//v1.7
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 
 void main()
 {
-	double i=1, num,sum=0, Ave;
+	int i = 0, num[50], sum = 0;
+	double Ave;
 	cout << "Enter three numbers :" << endl;
-	while (i<=3)
+	while (i<3)
 	{
-	cin >> num;
-	sum = sum + num;
+	cin >> num[i];
 	i++;
 	}
-	Ave = sum / 3;
+	for (i = 0; i < 3; i++)
+		sum = num[i] + sum;
+	Ave=sum / 3;
 	cout << "Average of these numbers is " << Ave << "!" << endl;
 	cin.get();
 	cin.ignore();
