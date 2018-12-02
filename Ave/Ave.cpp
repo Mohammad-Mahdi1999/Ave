@@ -4,21 +4,25 @@
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
-
+void ave(double x, double y, double z)
+{
+	double ave;
+	ave = (x + y + z) / 3;
+	cout << "Average is " << ave;
+}
 void main()
 {
-	int i = 0, num[50], sum = 0;
+	double x, y, z;
 	double Ave;
 	cout << "Enter three numbers :" << endl;
-	while (i<3)
-	{
-	cin >> num[i];
-	i++;
-	}
-	for (i = 0; i < 3; i++)
-		sum = num[i] + sum;
-	Ave=sum / 3;
-	cout << "Average of these numbers is " << Ave << "!" << endl;
+	cout << "    ";
+	cin >> x;
+	cout << "    ";
+	cin >> y;
+	cout << "    ";
+	cin >> z;
+	cout << "__________" << "\n";
+	ave(x, y, z);
 	cin.get();
 	cin.ignore();
 }
