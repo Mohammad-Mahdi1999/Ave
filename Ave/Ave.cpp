@@ -1,6 +1,6 @@
 // In the name of God !
 //Ave
-//v1.7
+//v2.0
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
@@ -8,7 +8,7 @@ void ave(double x, double y, double z)
 {
 	double ave;
 	ave = (x + y + z) / 3;
-	cout << "Average is " << ave;
+	cout << "Average is " << ave << endl;
 }
 void main()
 {
@@ -23,6 +23,7 @@ void main()
 	cin >> z;
 	cout << "__________" << "\n";
 	ave(x, y, z);
+	cout << "Press Enter key to exit . . .";
 	cin.get();
 	cin.ignore();
 }
